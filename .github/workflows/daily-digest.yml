@@ -1,0 +1,27 @@
+name: Daily Digest
+
+on:
+  schedule:
+    # 13:45 UTC = 7:15 PM IST, Mon-Fri (after Indian market close + settle)
+    - cron: "45 13 * * 1-5"
+  workflow_dispatch:   # lets you run it manually from the Actions tab
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send digest
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python main.py
