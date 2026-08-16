@@ -1,0 +1,20 @@
+{
+  "India": {
+    "Nifty 50":   "^NSEI",
+    "Sensex":     "^BSESN",
+    "Bank Nifty": "^NSEBANK",
+    "Nifty IT":   "^CNXIT"
+  },
+  "Global": {
+    "S&P 500":    "^GSPC",
+    "Nasdaq":     "^IXIC",
+    "Dow Jones":  "^DJI",
+    "FTSE 100":   "^FTSE",
+    "Nikkei 225": "^N225"
+  },
+  "Commodities & FX": {
+    "Gold (USD)":   "GC=F",
+    "Crude (WTI)":  "CL=F",
+    "USD / INR":    "INR=X"
+  }
+}
