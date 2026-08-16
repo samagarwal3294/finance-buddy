@@ -1,0 +1,18 @@
+{
+  "Technology": {
+    "India":  "https://news.google.com/rss/search?q=india+technology+startup+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+    "Global": "https://news.google.com/rss/search?q=technology+AI+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  "Geopolitics": {
+    "India":  "https://news.google.com/rss/search?q=india+foreign+policy+geopolitics+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+    "Global": "https://news.google.com/rss/search?q=geopolitics+international+relations+when:1d&hl=en-US&gl=US&ceid=US:en"
+  },
+  "Interior Industry": {
+    "India":  "https://news.google.com/rss/search?q=india+interior+design+furniture+building+materials+industry+when:2d&hl=en-IN&gl=IN&ceid=IN:en",
+    "Global": "https://news.google.com/rss/search?q=interior+design+furnishings+industry+when:2d&hl=en-US&gl=US&ceid=US:en"
+  },
+  "Climate": {
+    "India":  "https://news.google.com/rss/search?q=india+climate+environment+when:1d&hl=en-IN&gl=IN&ceid=IN:en",
+    "Global": "https://news.google.com/rss/search?q=climate+change+global+when:1d&hl=en-US&gl=US&ceid=US:en"
+  }
+}
