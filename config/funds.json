@@ -1,0 +1,34 @@
+[
+  {
+    "label": "HDFC Technology Fund",
+    "search": "HDFC Technology Fund",
+    "must_include": ["Regular", "Growth"],
+    "must_exclude": ["Direct", "IDCW", "Dividend"],
+    "code": null,
+    "units": null
+  },
+  {
+    "label": "ICICI Pru Multi-Asset Fund",
+    "search": "ICICI Prudential Multi Asset Fund",
+    "must_include": ["Growth"],
+    "must_exclude": ["Direct", "IDCW", "Dividend"],
+    "code": null,
+    "units": null
+  },
+  {
+    "label": "Kotak Midcap Fund",
+    "search": "Kotak Midcap Fund",
+    "must_include": ["Regular", "Growth"],
+    "must_exclude": ["Direct", "IDCW", "Dividend"],
+    "code": null,
+    "units": null
+  },
+  {
+    "label": "SBI Small Cap Fund",
+    "search": "SBI Small Cap Fund",
+    "must_include": ["Regular", "Growth"],
+    "must_exclude": ["Direct", "IDCW", "Dividend"],
+    "code": null,
+    "units": null
+  }
+]
